@@ -9,7 +9,7 @@ while (true)
     Console.WriteLine("Skriv in produkter. Avsluta med att skriva \'exit\'");
     string product = Console.ReadLine();
     //stop getting product from the user when they entered exit
-    if (product == "exit")
+    if (product.Trim().ToUpper() == "exit")
     {
         break;
     }
